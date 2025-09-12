@@ -1,0 +1,19 @@
+
+/*****----- Global Properties -----*****/
+@import                          "shared/colors.rasi"
+@import                          "shared/font.rasi"
+@import                          "shared/config.rasi"
+@import                          "shared/menu.rasi"
+
+/*****----- Configuration -----*****/
+configuration {
+    show-icons:                 false;
+    matching:                   "prefix";
+}
+
+/*****----- Main Window -----*****/
+window {
+    width:                       900px; 
+    height:                       75%; 
+}
+
