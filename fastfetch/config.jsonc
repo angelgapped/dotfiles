@@ -1,33 +1,33 @@
 {
-"$schema": "https://github.com/fastfetch-cli/fastfetch/raw/dev/doc/json_schema.json",
-"logo": {
- "type": "auto",
- "source": "arch",  
- "color": { 
-  "1": "blue"
-  }
-},
-
-"modules": [
+  "$schema": "https://github.com/fastfetch-cli/fastfetch/raw/master/doc/json_schema.json",
+  "modules": [
+    // ─── Identity ───
     "title",
-    "separator",
+    "break",
+
+    // ─── System ─────
     "os",
-    "host",
     "kernel",
-    "uptime",
-    "packages",
     "shell",
+
+    // ─── Interface ──
     "display",
     "de",
     "wm",
     "wmtheme",
+    "theme",
+    "font",
+    "cursor",
     "terminal",
+    "terminalfont",
+
+    // ─── Hardware ───
     "cpu",
     "gpu",
     "memory",
-    "swap",
     "disk",
-    "poweradapter",
+
+    // ─── Aesthetics ──
     "break",
     "colors"
   ]
